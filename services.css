@@ -1,0 +1,149 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    background-color: antiquewhite;
+    border-radius: 10px;
+}
+nav 
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.logo
+{
+    color: rgb(14, 13, 13);
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+nav ul li 
+{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+    font-size: 30px;
+}
+nav ul li a 
+{
+    color: rgb(7, 7, 7);
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul li a:hover
+{
+    color: brown;
+    transition: .4s;
+}
+.title
+{
+    color: rgb(255, 253, 253);
+    font-size: 35px;
+    width: 930px;
+    margin: 30px auto;
+    text-align: center;
+}
+.box
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 220px;
+    
+}
+.card1
+{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background-image: url(img/gif.1.gif);
+    background-size: cover;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: inset;
+}
+.card2
+{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background-image: url(img/Trim.gif);
+    background-size: cover;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.card3
+{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background-image: url(img/video.gif);
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.card4
+{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background-image: url(img/pencil.gif);
+    background-size: cover;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    
+}
+.card5
+{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background-image: url(img/canva.gif);
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.card6
+{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background-image: url(img/messurments.gif);
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.card h5
+{
+    font-size: large;
+    background-color: transparent;
+}
+.pra p
+{
+    color: rgb(17, 17, 17);
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
